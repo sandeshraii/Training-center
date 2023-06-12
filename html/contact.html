@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Classroom Training Center</title>
+    <link rel="shortcut icon" type="image/png" href="../image/ic.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- Header Part  -->
+    <nav>
+        <ul>
+            <li class="logo"><img src="../image/logo.png" alt="Classroom"></li>
+            <li class="items"><a href="index.html">HOME</a></li>
+            <li class="items"><a href="about.html">ABOUT US</a></li>
+            <li class="items"><a href="course.html">COURSES</a></li>
+            <li class="items"><a href="admission.html">ADMISSION</a></li>
+            <li class="items"><a href="contact.html">CONTACT</a></li>
+            <li class="btn"><a href="toggle"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $('.btn').click(function () {
+                $('.items').toggleClass("show");
+                $('ul li').toggleClass("hide");
+            });
+        });
+    </script>
+    <!-- Body Part -->
+    <section class="contact">
+        <div class="contactTitle">
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="wrapper">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="contactText">
+                        <h3>Address</h3>
+                        <p>koteshwor, Kathmandu</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="contactText">
+                        <h3>Phone</h3>
+                        <p>9860590712</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="contactText">
+                        <h3>Email</h3>
+                        <p>classroom@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="" class="form">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" class="name" name="" required>
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" class="email" name="" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" class="message" name="" required>
+                        <span>Type Your Message</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" class="btn" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Time  -->
+    <div class="time">
+        <div class="pr">
+            <p>6 am to 8 am : Physical | 8:30 am to 9:15 am : English</p><br>
+            <p>9:15 to 9:55 : Maths | Interview Classes in between</p>
+        </div>
+        <div class="class"><a href="admission.html">Join Now</a></div>
+    </div>
+
+     <!-- Google Map -->
+     <div class="googleMap">
+        <h1>Find Our Path</h1>
+        <div class="map">
+          <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14133.189959106629!2d85.33556682326677!3d27.677198877423322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f2804a02bf%3A0x85468199859b2d8d!2sKoteshwor%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1599538760393!5m2!1sen!2snp" 
+          width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Part  -->
+    <footer class="main-footer">
+        <div class="social-links">
+            <h1>Find Us On</h1>
+            <div class="social-icon">
+                <i title="Instagram" class="fa fa-instagram"></i>
+                <i title="Facebook" class="fa fa-facebook"></i>
+                <i title="YouTube" class="fa fa-youtube"></i>
+            </div>
+        </div>
+        <div class="copyright ">
+            <p>© Classroom Training Center. All rights reserved 2021.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="arrow">
+        <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+    </div>
+</body>
+
+</html>
